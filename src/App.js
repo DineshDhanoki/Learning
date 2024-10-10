@@ -1,13 +1,11 @@
 import React from 'react'
-import Add from './components/Add'
+import Count from './components/Count'
+import Counter from './components/Count'
 
 export default function App() {
   return (
     <div>
-      <h1> Hello Diplo </h1>
-      <h1><Add/></h1>
+      <Counter />
     </div>
-    
-      )
+  )
 }
-
