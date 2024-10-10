@@ -1,11 +1,14 @@
 import React from 'react'
-import Count from './components/Count'
-import Counter from './components/Count'
+import Friendship from './components/Count'
+import Movieshow from './components/Movieticket'
+import Moviechange from './components/Movie'
 
 export default function App() {
   return (
     <div>
-      <Counter />
+      <Friendship />
+      <Movieshow />
+      <Moviechange />
     </div>
   )
 }

@@ -1,24 +1,32 @@
-import React from 'react'
-import { useState } from 'react'
+import React, {useState} from 'react'
 
-const Counter = () => {
-    const [count, setCount] = useState(0)
+const Friendship = () => {
+    const [friend, setFriend] = useState(['Diplo','Jack'])
 
-    const increment = () => {
-        setCount(count + 1);
+    const Addfriend = () => {
+        setFriend([...friend, 'David'])
     }
 
-    const decrement = () => {
-        setCount(count - 1);
+    const Removefriend = () => {
+        setFriend(friend.filter((event) => event !== 'Jack'));
+    }
+
+    const Updatefriend = () => {
+        setFriend(friend.map((event) => (event === 'Diplo' ? 'Diplo Dhanoki' : event)));
     }
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={increment}>+</button>
-      <button onClick={decrement}>-</button>
+      {friend.map((event) => (
+        <li key={Math.random()}>{event}</li>
+      ))}
+
+
+      <button onClick={Addfriend}>Add Friend</button>
+      <button onClick={Removefriend}>Remove Friend</button>
+      <button onClick={Updatefriend}>Update Friend</button>
     </div>
   )
 }
 
-export default Counter
+export default Friendship
