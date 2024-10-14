@@ -3,6 +3,7 @@ import Friendship from './components/Count'
 import Movieshow from './components/Movieticket'
 import Moviechange from './components/Movie'
 import Name from './components/Name'
+import Title from './components/Title'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Movieshow />
       <Moviechange />
       <Name />
+      <Title />
     </div>
   )
 }
