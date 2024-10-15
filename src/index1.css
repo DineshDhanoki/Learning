@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: blue;
+    padding: 50px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 300px;
+    margin-right: 10px;
+    background: lightblue;
+}
+
+button {
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    padding: 10px 20px;
+    background: lightskyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.todos-list {
+    margin-top: 3rem;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: cursive;
+    background: lightyellow;
+}
+
+.close{
+    padding: 5px 10px;
+    cursor: pointer;
+}
