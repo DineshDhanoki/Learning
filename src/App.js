@@ -1,13 +1,15 @@
 import React from 'react'
+import MealAPI from './components/MealAPI'
 // import Counter from './components/Counter'
-import Todo from './components/Todo'
+// import Todo from './components/Todo'
 
 const App = () => {
 
   return (
     <>
-    {/* <Counter /> */}
-    <Todo/>
+    <MealAPI/>
+    {/* <Counter />
+    <Todo/> */}
     </>
   )
 }

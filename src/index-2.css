@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    background: yellowgreen;
+}
+
+.cards{
+    background: cyan;
+    color: black;
+    font-size: 13px;
+    margin: 10px;
+    padding: 30px;
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+
+p{
+    font-weight: bold;
+}
+
+img{
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+}
