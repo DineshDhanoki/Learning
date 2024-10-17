@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    transition: 1s ease;
+}
+
+input{
+    padding: 13px 12px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px 1px rgb(35, 35, 35);
+}

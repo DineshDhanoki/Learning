@@ -1,5 +1,6 @@
 import React from 'react'
-import ToggleButtonColor from './components/ToggleButtonColor'
+import HiddenSearchBar from './components/HiddenSearchBar'
+// import ToggleButtonColor from './components/ToggleButtonColor'
 // import Calculator from './components/Calculator'
 // import MealAPI from './components/MealAPI'
 // import Counter from './components/Counter'
@@ -9,8 +10,9 @@ const App = () => {
 
   return (
     <>
-    <ToggleButtonColor/>
-    {/* <Calculator/>
+    <HiddenSearchBar/>
+    {/* <ToggleButtonColor/>
+    <Calculator/>
     <MealAPI/>
     <Counter />
     <Todo/> */}
