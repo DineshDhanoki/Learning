@@ -1,5 +1,6 @@
 import React from 'react'
-import MealAPI from './components/MealAPI'
+import Calculator from './components/Calculator'
+// import MealAPI from './components/MealAPI'
 // import Counter from './components/Counter'
 // import Todo from './components/Todo'
 
@@ -7,8 +8,9 @@ const App = () => {
 
   return (
     <>
-    <MealAPI/>
-    {/* <Counter />
+    <Calculator/>
+    {/* <MealAPI/>
+    <Counter />
     <Todo/> */}
     </>
   )
