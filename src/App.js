@@ -1,5 +1,7 @@
 import React from 'react'
-import Testimonials from './components/Testimonials'
+import Accordion from './components/Accordion'
+import { accordionData } from "./utils/content"; 
+// import Testimonials from './components/Testimonials'
 // import HiddenSearchBar from './components/HiddenSearchBar'
 // import ToggleButtonColor from './components/ToggleButtonColor'
 // import Calculator from './components/Calculator'
@@ -10,16 +12,16 @@ import Testimonials from './components/Testimonials'
 const App = () => {
 
   return (
-    <>
-    <Testimonials/>
-    {/* <HiddenSearchBar/>
-    <ToggleButtonColor/>
-    <Calculator/>
-    <MealAPI/>
-    <Counter />
-    <Todo/> */}
-    </>
+    <div>
+      <div className="accordion">{accordionData.map(({ title, content }) => (
+      <Accordion title={title} content={content} />
+      ))}
+    
+
+    </div>
+    </div>
   )
 }
 
 export default App
+ 
