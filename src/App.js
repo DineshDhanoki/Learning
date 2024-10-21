@@ -1,6 +1,7 @@
 import React from 'react'
-import Accordion from './components/Accordion'
-import { accordionData } from "./utils/content"; 
+import Validate from './components/Validate'
+// import Accordion from './components/Accordion'
+// import { accordionData } from "./utils/content"; 
 // import Testimonials from './components/Testimonials'
 // import HiddenSearchBar from './components/HiddenSearchBar'
 // import ToggleButtonColor from './components/ToggleButtonColor'
@@ -11,16 +12,23 @@ import { accordionData } from "./utils/content";
 
 const App = () => {
 
-  return (
-    <div>
-      <div className="accordion">{accordionData.map(({ title, content }) => (
-      <Accordion title={title} content={content} />
-      ))}
-    
+  return <Validate/>
+    // <div>
+    //   <div className="accordion">{accordionData.map(({ title, content }) => (
+    //   <Accordion title={title} content={content} />
+    //   ))}
 
-    </div>
-    </div>
-  )
+    // <Testimonials/>
+    // <HiddenSearchBar/>
+    // <ToggleButtonColor/>
+    // <Calculator/>
+    // <MealAPI/>
+    // <Counter />
+    // <Todo/> 
+
+    // </div>
+    // </div>
+  
 }
 
 export default App
